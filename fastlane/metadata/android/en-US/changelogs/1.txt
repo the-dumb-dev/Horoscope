@@ -1,0 +1,5 @@
+Initial version of the application
+First public release
+Main feature: retrieves a horoscope from the Internet
+Minimalist user interface
+Graphical user interface text in English
