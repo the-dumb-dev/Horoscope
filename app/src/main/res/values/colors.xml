@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkBlueBG">#263238</color>
+    <color name="BtnColor">#607D8B</color>
+    <color name="DarkBlueScrollView">#37474F</color>
+    <color name="LightWhiteText">#CFD8DC</color>
+</resources>
