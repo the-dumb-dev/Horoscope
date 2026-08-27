@@ -9,3 +9,7 @@ Une fois votre horoscope récupéré, l’application l’affiche dans les plus 
 Pour toute question, remarque ou idée de mise à jour, vous pouvez me contacter à l’adresse suivante : the-dumb-dev@protonmail.com
 
 Pas de spam ni de messages indésirables, s’il vous plaît :-)
+
+pour construire vous même l'application, vous devez installer le sdk android, puis copier tout le github sur votre machine puis placez vous dans le 
+
+dossier juste avant app/ puis lancer la commande ./gradlew clean assembleDebug sur dans votre terminal, apres cela le .apk se trouveras dans app/build/outputs/apk/debug/
