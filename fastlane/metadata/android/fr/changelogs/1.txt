@@ -1,0 +1,6 @@
+- Version initiale de l'application
+
+- Premiere sortie publique
+- Fonction principale : retourne un horoscope prélever su internet
+- Interface utilisateur minimaliste
+- TEXT DE L'INTERFACE GRAPHIQUE EN ANGLAIS
