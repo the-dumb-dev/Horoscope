@@ -1,6 +1,6 @@
 
 FR:
-Si vous voulez seulement l'application allez à :https://github.COM/the-dumb-dev/apk-Only
+Si vous voulez seulement l'application allez à :https://github.com/the-dumb-dev/apk-Only
 
 Mon application Android va automatiquement chercher votre horoscope. Pour cela, vous devez entrer votre signe astrologique, mais pas de panique : ces données restent stockées sur votre téléphone.
 
