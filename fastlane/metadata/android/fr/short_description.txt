@@ -1,4 +1,0 @@
-I USE https://mon.astrocenter.fr to get the horoscope,if there is any problem with that please contact me at the-dumb-dev@protonmail.com
-
-
-so this simple app simply show you in the UI you horoscope, there is the features to remember your sign, to modifie it, and that's it...

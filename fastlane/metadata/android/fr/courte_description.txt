@@ -1,0 +1,3 @@
+J'UTILISE https://mon.astrocenter.fr pour récuperer l'horoscope SI cela pose problème CONTACTER MOI a the-dumb-dev@protonmail.com
+
+Mon application très minimaliste récupère sur internet l'horoscope du jour en fonction du signe de l'utlilisateur
