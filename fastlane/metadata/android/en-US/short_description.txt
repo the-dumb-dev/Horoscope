@@ -1,1 +1,3 @@
-text here
+I use https://mon.astrocenter.fr to retrieve the horoscope. If this causes any issues, please contact me at the-dumb-dev@protonmail.com.
+
+My very minimalist application retrieves the user’s daily horoscope from the Internet based on their zodiac sign.
