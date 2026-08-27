@@ -1,0 +1,3 @@
+My application asks the user to enter their zodiac sign in an EditText. The sign is then saved in the device’s internal storage.
+
+The user can modify their zodiac sign at any time. Once this has been done, they can search for their horoscope. The horoscope will then be displayed in the middle of the graphical user interface.
