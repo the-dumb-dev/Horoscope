@@ -23,7 +23,7 @@ class NetworkManager(private val mycontext: Context){
 
 
 	fun addargstourl(sign: String): URL{
-		val text_url: String = "https://mon.astrocenter.fr/horoscope/quotidien/$sign"
+		val text_url: String = "https://mon.astrocenter.fr/horoscope/quotidien/$sign" // add the sign to the URL, sign that was read in your internal storage
 		return URI.create(text_url).toURL()
 	}
 
@@ -40,9 +40,9 @@ class NetworkManager(private val mycontext: Context){
 
 				val url: URL = addargstourl(usersign)
 
-				connection = url.openConnection() as HttpURLConnection
+				connection = url.openConnection() as HttpURLConnection // create the connection
 
-				connection.requestMethod = "GET"
+				connection.requestMethod = "GET" // precise the type for the HTTP request
 
 				val responseCode: Int = connection.responseCode
 
@@ -50,7 +50,7 @@ class NetworkManager(private val mycontext: Context){
 
 					try {
 
-						val reader: BufferedReader? = BufferedReader(InputStreamReader(connection.inputStream))
+						val reader: BufferedReader? = BufferedReader(InputStreamReader(connection.inputStream)) // this will read the content of the response
 
 						var line: String? = null
 
@@ -61,7 +61,7 @@ class NetworkManager(private val mycontext: Context){
 							response.append(line)
 						}
 						
-						val succeswriting = filemanager.writefile(filename, response.toString())
+						val succeswriting = filemanager.writefile(filename, response.toString()) // wite it in your storage in .txt format, so not executable
 
 						if (succeswriting) {
 
