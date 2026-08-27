@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkBlueBG">
+
+    <Button
+      android:id="@+id/ReloadHoros"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Reload"
+      android:layout_margin="8dp"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:background="@color/BtnColor"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:fillViewport="true"
+        android:background="@color/DarkBlueScrollView"
+        app:layout_constraintTop_toBottomOf="@id/ReloadHoros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        
+        <LinearLayout
+            android:id="@+id/LinearLayoutHoros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/DarkBlueScrollView">
+            
+            
+            <TextView
+                android:id="@+id/TextViewHoros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reload if you see this, because we have a little bug..."
+                android:textColor="@color/LightWhiteText"
+                android:layout_margin="16dp"/>
+                
+                
+            <EditText
+                android:id="@+id/SignUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="your Sign"
+                android:inputType="textPersonName"
+                android:textColor="@color/LightWhiteText"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:id="@+id/TextViewSignAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="belier, taureau, gemeaux, cancer, lion, vierge, balance, scorpion, sagittaire, capricorne, verseau, poissons, This are all the signs with the rigth writing for the request, it will be easier for the next version, I promise :-)"
+                android:textColor="@color/LightWhiteText"
+                android:layout_margin="16dp"/>
+                
+            <Button
+                android:id="@+id/SaveSign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save your Sign"
+                android:layout_margin="16dp"
+                android:background="@color/BtnColor"/>
+                
+            <Button
+                android:id="@+id/LoadSign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Load your Sign"
+                android:layout_margin="16dp"
+                android:background="@color/BtnColor"/>
+            
+        
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
