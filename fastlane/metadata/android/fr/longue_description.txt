@@ -1,0 +1,3 @@
+Mon application demande à l'utilisateur de d'écrire son signe dans un EditText puis celui-ci sera sauvergarder dans la mémoire interne de l'apparei
+l'utilisateur pourra a tout moment modifier son signe, après avoir fait cela il pourra lancer un recherche de l'horoscope , celui ci sera afficher dans l'inteface graphique
+au milieu de l'interface graphique
